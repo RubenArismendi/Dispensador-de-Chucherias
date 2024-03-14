@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+}
+.contenedor{
+    background-size: cover;
+    width: 600px;
+    height: 670px;
+    background-image: url("maquina\ expendedora\ 1.png");
+}
+.chucheria-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 249px;
+    margin-left: 192px;
+    height: 390px;
+    background-color: white;
+    margin-top: 10px;
+}
+
+
+.chucheria{
+    width: 54px;
+    height: 50px;
+    background: white;
+    
+    }
+
+.chucheria img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.chucheria p{
+    font-size: 13px;
+    text-align: center;
+}
+
+.contenedor-chuches{
+    padding-top: 65px;
+}
+
+.contenedor-chuches h6{
+    margin-left: 187px;
+    padding:25px;
+    background-color:white;
+    display: inline;
+}
+
+b{
+    color: red ;
+    font-size: 15px;
+}
+
+.padre{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+@media(max-width:760px){
+    .padre{
+        grid-template-columns: 1fr ;
+    }
+}
+
+
+.resultados-padre{
+    background-color: rgb(244, 244, 244);
+}
+
+p{
+    margin-bottom: 0;
+}
+
+.contenedor-resultados{
+    width: 350px;
+    height: 600px;
+    border-radius: 1rem;
+    background-color: white;
+    
+}
+
+
+#resultadosCompra{
+    margin-left: 5px;
+}
+
+
